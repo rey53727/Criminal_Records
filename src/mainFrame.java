@@ -9,10 +9,10 @@ public class mainFrame extends JFrame {
 
     JPanel panel2 = new JPanel();
 
-    public int getWidthFrame()
+   /* public int getWidthFrame()
     {
         return WIDTH;
-    }
+    }*/
 
     public int getHeightFrame(){
         return HEIGTH;
@@ -37,7 +37,6 @@ public class mainFrame extends JFrame {
         mframe.setIconImage(new ImageIcon("City_Pho.png").getImage());
         mframe.setLayout(null);
         mframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        mframe.add(panel1);
         mframe.add(panel2);
         mframe.setResizable(false);
         mframe.setVisible(true);
